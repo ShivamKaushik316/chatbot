@@ -84,6 +84,8 @@ function App() {
         <input
           type="text"
           ref={inputRef}
+          
+          
           class="form-control col"
           placeholder="Type Something"
         />
