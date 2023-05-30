@@ -7,7 +7,7 @@ mongoose.connect(DB ).then(()=>{
   console.log("Success");
 }).catch((err)=>{console.log("error")});
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 const { Configuration, OpenAIApi } = require("openai");
 const cors = require("cors");
 const configuration = new Configuration({
